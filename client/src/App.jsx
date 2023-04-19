@@ -17,7 +17,6 @@ import Newpass from "./pages/Newpassword";
 import CustomerHome from "./pages/usertype/Customer/CustomerHome";
 import DriverHome from "./pages/usertype/Driver/DriverHome";
 import ManagerHome from "./pages/usertype/Manager/ManagerHome";
-import AdminHome from "./pages/usertype/Admin/AdminHome";
 import Order from "./pages/Order";
 import OrderTracking from "./pages/OrderTrackingPage";
 import Mapview from "./pages/map";
@@ -83,7 +82,6 @@ const App = () => {
 						<Route exact path="/Customer" element = {<CustomerHome/>} />
 						<Route exact path="/Driver" element = {<DriverHome/>} />
 						<Route exact path="/Manager" element = {<ManagerHome/>} />
-						<Route exact path="/Admin" element = {<AdminHome/>} />
 						<Route exact path="/order" element = {<Order/>} />
 						<Route exact path="/ordertracking" element = {<OrderTracking/>} />
 						<Route exact path="/map" element = {<Mapview/>} />
