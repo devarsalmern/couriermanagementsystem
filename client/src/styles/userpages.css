@@ -1,0 +1,17 @@
+.userwrapper {
+    display: grid;
+    grid-template-columns: 30px auto;
+    gap: 5px;
+    grid-auto-rows: auto;
+  }
+  .sidebar {
+    grid-column: 1;
+    grid-row: auto;
+  }
+  .mainbody {
+    grid-column: 2;
+    grid-row: auto;
+  }
+
+
+ 

@@ -1,0 +1,53 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    grid-auto-rows: minmax(50px, 100px);
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1/8;
+  }
+  .two {
+    grid-column: 2;
+    grid-row: 1/8;
+  }
+  .three {
+    grid-column: 1/3;
+    grid-row: 5/11;
+  }
+  .four {
+    grid-column: 3;
+    grid-row: 1/15;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 4;
+  }
+
+  .wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    grid-auto-rows: auto;
+  }
+  .one1 {
+    grid-column: 1;
+    grid-row: auto;
+  }
+  .two1 {
+    grid-column: 2;
+    grid-row: auto;
+  }
+  .three1 {
+    grid-column: 3;
+    grid-row: auto;
+  }
+  .four1 {
+    grid-column: 3;
+    grid-row: auto;
+  }
