@@ -1,9 +1,5 @@
-# Enroute
-## Software Engineering (Spring 22) Project: Delivery Management System - Full Stack Development
+# CMS
 
-A one-stop shop application to cater door-to-door custom delivery needs and recommend a best courier service provider for chosen source, destination and package type.
-
-Demo: https://www.youtube.com/watch?v=XSOwXE0UZaU&ab_channel=PraneethsTech
 
 - Designed and Developed a Full-stack web application using MERN Stack.
 - Developed a custom algorithm to suggest best courier choice among the available options.
